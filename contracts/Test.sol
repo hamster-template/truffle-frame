@@ -6,7 +6,7 @@ contract Test {
     constructor(uint _data) public {
         data = _data;
     }
-    function getData() public returns (uint){
+    function getData() public view returns (uint){
         return data;
     }
 }
